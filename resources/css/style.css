@@ -1,0 +1,322 @@
+@media  (max-width: 2170px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 9%;
+    background: #f6f4f1;
+  }
+
+  body {
+    background: #ebebeb;
+    height: 185em;
+  }
+  .body {
+    background: rgb(218, 216, 216);
+    width: 85%;
+    margin: 0 auto;
+    height: 55em;
+  }
+
+  ul {
+    margin: auto;
+  }
+  .navlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a {
+    color: #5b5247;
+    margin-left: 43px;
+    margin-right: 43px;
+    font-weight: 10;
+    border-bottom: 2px solid transparent;
+    transition: all 0.55s ease;
+    font-size: 19px;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a:hover {
+    border-bottom: 2px solid #5b5247;
+  }
+
+  #menu-icon {
+    color: #5b5247;
+    font-size: 3em;
+    z-index: 10001;
+    cursor: pointer;
+  }
+
+  .main {
+    padding-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 1em;
+  }
+
+  .main-image {
+    width: 22%;
+    height: auto;
+    margin-top: 10%;
+    z-index: 100;
+    position: relative;
+  }
+
+  button {
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    width: 22%;
+    margin-top: 2%;
+    font-size: 25px;
+    font-family: "DM Serif Display", serif;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+  }
+
+  .navlist li.dropdown-parent {
+    position: relative;
+  }
+
+  .navlist li.dropdown-parent .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 1001;
+  }
+
+  .navlist li.dropdown-parent:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    padding: 7px;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+  }
+
+  .dropdown-content a:last-child {
+    border-bottom: none;
+  }
+  .dropdown-content {
+    right: 50%;
+
+    min-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  ul li ul li {
+    border-bottom: 1px solid black;
+  }
+
+  ul li ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+
+  .subjects h1 {
+    text-align: center;
+    padding-top: 12%;
+    font-size: 3em;
+    font-weight: 100;
+    padding-bottom: 2%;
+  }
+
+  .subjects table {
+    margin: auto;
+    text-align: center;
+
+    z-index: 100;
+    position: relative;
+  }
+
+  .subjects td {
+    padding: 3em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .subimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .subjects table tr td table {
+    padding: none;
+  }
+
+  .box {
+    width: 60%;
+    height: 40em;
+    background-color: #f6f4f1;
+
+    margin: 0 auto;
+    z-index: 50;
+    position: absolute;
+    left: 20%;
+  }
+
+  table.subjects {
+    position: relative;
+    z-index: 100;
+    margin-top: 2%;
+  }
+
+  .subjects table table td button {
+    background-color: #af9d81;
+    font-size: 20px;
+    width: 80%;
+    padding: none;
+  }
+
+  .subjects table table td {
+    padding: 1em;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 7%;
+    font-size: 20px;
+  }
+
+  .moreinfo {
+    margin-top: 5%;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 3em 0;
+    display: flex;
+  }
+
+  .moreinfo table td {
+    width: 50%;
+    text-align: center;
+  }
+  .moreinfo table td h1 {
+    font-weight: 100;
+    padding-bottom: 1em;
+  }
+
+  .moreinfo table td h2 {
+    font-weight: 100;
+
+    padding: 0 3em 1em 3em;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 16%;
+  }
+  .footer table {
+    border-top: 1px solid black;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 5em;
+    padding-top: 1em;
+    top: 87em;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .bodyofficer {
+    background: rgb(218, 216, 216);
+    width: 85%;
+    margin: 0 auto;
+    height: 260vh;
+    background-color: whitesmoke;
+  }
+
+  .bodyofficer h1 {
+    margin: 0 auto;
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 3em
+  }
+
+  .bodyofficer .lefttable{
+    height: 20vh; 
+    margin-right: 20vw;
+    background-color: #D9D9D9;
+    margin-top: 8vh;
+  }
+
+  .bodyofficer .lefttable img{
+    width: 200px;
+    height: auto;
+    padding: 10px 0 10px 50px;
+  }
+
+  .bodyofficer .lefttext{
+    padding-left: 50px; 
+    text-align: center;
+  }
+
+  .bodyofficer .righttable{
+    height: 20vh;
+    margin-left: 20vw;
+    background-color: #D9D9D9;
+    margin-top: 8vh;
+  }
+
+  .bodyofficer .righttext{
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .bodyofficer .righttable img{
+    width: 200px;
+    height: auto;
+    padding: 10px 50px 10px 0;
+  }
+
+  .bodycontact{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+}
